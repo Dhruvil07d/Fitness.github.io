@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div">
+        <div class="div-2">WELCOME TO OUR HOME PAGE</div>
+        <div class="div-3">
+          <div class="div-4">
+            <div class="column">
+              <img src="Frame 4.png" alt=""> 
+              />
+            </div>
+            <div class="column-2">
+              <img src="Frame 5.png" alt="">
+              />
+            </div>
+          </div>
+        </div>
+        <div class="div-5">this is some images of our gym</div>
+        <div class="div-6"><a href="page 1.html">Back</a></div>
+      </div>
+      <style>
+        .div {
+          background-color: #000;
+          display: flex;
+          flex-direction: column;
+        }
+        .div-2 {
+          -webkit-text-stroke-width: 1;
+          -webkit-text-stroke-color: #000;
+          border-color: rgba(0, 0, 0, 1);
+          border-style: solid;
+          border-width: 1px;
+          justify-content: center;
+          align-items: center;
+          background-color: #27c4ce;
+          width: 100%;
+          color: #040404;
+          text-align: center;
+          padding: 70px 60px;
+          font: 400 64px Inter, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-2 {
+            max-width: 100%;
+            font-size: 40px;
+            padding: 0 20px;
+          }
+        }
+        .div-3 {
+          align-self: center;
+          margin-top: 107px;
+          width: 100%;
+          max-width: 1284px;
+        }
+        @media (max-width: 991px) {
+          .div-3 {
+            max-width: 100%;
+            margin-top: 40px;
+          }
+        }
+        .div-4 {
+          gap: 20px;
+          display: flex;
+        }
+        @media (max-width: 991px) {
+          .div-4 {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0px;
+          }
+        }
+        .column {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 50%;
+          margin-left: 0px;
+        }
+        @media (max-width: 991px) {
+          .column {
+            width: 100%;
+          }
+        }
+        .img {
+          aspect-ratio: 1.89;
+          object-fit: auto;
+          object-position: center;
+          width: 100%;
+          flex-grow: 1;
+        }
+        @media (max-width: 991px) {
+          .img {
+            max-width: 100%;
+            margin-top: 40px;
+          }
+        }
+        .column-2 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 50%;
+          margin-left: 20px;
+        }
+        @media (max-width: 991px) {
+          .column-2 {
+            width: 100%;
+          }
+        }
+        .div-5 {
+          color: #fff;
+          text-align: center;
+          -webkit-text-stroke-width: 1;
+          -webkit-text-stroke-color: #000;
+          border-color: rgba(0, 0, 0, 1);
+          border-style: solid;
+          border-width: 1px;
+          align-self: center;
+          margin-top: 119px;
+          font: 400 64px Inter, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-5 {
+            max-width: 100%;
+            margin-top: 40px;
+            font-size: 40px;
+          }
+        }
+        .div-6 {
+          -webkit-text-stroke-width: 1;
+          -webkit-text-stroke-color: #000;
+          border-color: rgba(0, 0, 0, 1);
+          border-style: solid;
+          border-width: 1px;
+          align-items: start;
+          background-color: #27c4ce;
+          margin-top: 53px;
+          width: 100%;
+          color: #000;
+          white-space: nowrap;
+          text-align: center;
+          padding: 47px 50px 92px;
+          font: 400 64px Inter, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-6 {
+            font-size: 40px;
+            max-width: 100%;
+            margin-top: 40px;
+            white-space: initial;
+            padding: 0 20px;
+          }
+        }
+      </style>
+      
+</body>
+</html>
